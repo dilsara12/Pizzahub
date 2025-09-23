@@ -118,6 +118,63 @@ You've successfully run and modified your React Native App. :partying_face:
 
 If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
+
+## How to Use Firebase in This Project
+
+This project uses [@react-native-firebase](https://rnfirebase.io/) for Firebase integration. Follow these steps to set up Firebase in your local environment:
+
+### Prerequisites
+- A Firebase project created at [Firebase Console](https://console.firebase.google.com/).
+- Node.js and npm installed.
+- React Native environment set up (see `npx react-native doctor`).
+
+### Steps to Configure Firebase
+
+1. **Create a Firebase Project**
+   - Go to the [Firebase Console](https://console.firebase.google.com/).
+   - Click "Add project", name it (e.g., "PizzaHub"), and follow the setup wizard.
+
+2. **Enable Required Firebase Services**
+   - In the Firebase Console, enable:
+     - Firestore (for database operations).
+     - Authentication (if used).
+     - Any other services your app requires (e.g., Cloud Functions).
+   - Note the project settings for later.
+
+3. **Install Firebase Dependencies**
+   - Navigate to your project directory:
+                                  - Install the required packages:
+                                    (npm install @react-native-firebase/app @react-native-firebase/firestore)
+
+4. **Configure Firebase in the Project**
+- Download the Firebase configuration files:
+- For Android: Download `google-services.json` from the Firebase Console (Project Settings > General > Your apps > Android app).
+- For iOS: Download `GoogleService-Info.plist` (Project Settings > General > Your apps > iOS app).
+- Place these files in the respective directories:
+- `android/app/google-services.json`
+- `ios/Runner/GoogleService-Info.plist` (adjust `Runner` to your iOS app name if different).
+- Ensure these files are added to `.gitignore` to avoid committing them.
+
+5. **Update FirebaseInit.ts**
+- Open `src/firebase/FirebaseInit.ts` and replace the placeholder `firebaseConfig` with your project's configuration from the Firebase Console:
+```typescript
+import { initializeApp } from '@react-native-firebase/app';
+import firestore from '@react-native-firebase/firestore';
+
+const firebaseConfig = {
+  apiKey: 'your-api-key',
+  authDomain: 'your-auth-domain',
+  projectId: 'your-project-id',
+  storageBucket: 'your-storage-bucket',
+  messagingSenderId: 'your-messaging-sender-id',
+  appId: 'your-app-id',
+};
+
+const app = initializeApp(firebaseConfig);
+export const db = firestore();
+export default app;
+                                    
+                                   
 # Learn More
 
 To learn more about React Native, take a look at the following resources:
