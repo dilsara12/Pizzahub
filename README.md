@@ -1,3 +1,26 @@
+# PizzaHub
+
+Welcome to PizzaHub - A React Native app for Viki Pizza! Visit [vikipizza.lk](https://vikipizza.lk) for more details.
+
+## Description
+This app allows users to browse menus, place orders, and manage their accounts.
+
+## Features
+- User authentication
+- Menu browsing
+- Order placement
+
+## Screenshots
+![Home Page](screenshots/HomePage.png)
+![Signup Screen](screenshots/SingupPage.png)
+![Login Screen](screenshots/LoginPage.png)
+![Firebase](screenshots/firebase.png)
+![Required](screenshots/required.png)
+![Successfully](screenshots/successfully.png)
+![Incorrect](screenshots/incorrect.png)
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
