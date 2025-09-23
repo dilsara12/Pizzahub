@@ -10,15 +10,22 @@ This app allows users to browse menus, place orders, and manage their accounts.
 - Menu browsing
 - Order placement
 
-## Screenshots
-![Home Page](screenshots/HomePage.jpg)
-![Signup Screen](screenshots/SingupPage.jpg)
-![Login Screen](screenshots/LoginPage.jpg)
-![Firebase](screenshots/firebase.png)
-![Required](screenshots/required.jpg)
-![Successfully](screenshots/successfully.jpg)
-![Incorrect](screenshots/incorrect.jpg)
 
+## Screenshots
+### Home Page
+<img src="screenshots/HomePage.jpg" width="300" alt="Home Page">
+### Signup Screen
+<img src="screenshots/SingupPage.jpg" width="300" alt="Signup Screen">
+### Login Screen
+<img src="screenshots/LoginPage.jpg" width="300" alt="Login Screen">
+### Firebase
+<img src="screenshots/firebase.png" width="300" alt="Firebase">
+### Required
+<img src="screenshots/required.jpg" width="300" alt="Required">
+### Successfully
+<img src="screenshots/successfully.jpg" width="300" alt="Successfully">
+### Incorrect
+<img src="screenshots/incorrect.jpg" width="300" alt="Incorrect">
 
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
