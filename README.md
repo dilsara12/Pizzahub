@@ -11,13 +11,13 @@ This app allows users to browse menus, place orders, and manage their accounts.
 - Order placement
 
 ## Screenshots
-![Home Page](screenshots/HomePage.png)
-![Signup Screen](screenshots/SingupPage.png)
-![Login Screen](screenshots/LoginPage.png)
+![Home Page](screenshots/HomePage.jpg)
+![Signup Screen](screenshots/SingupPage.jpg)
+![Login Screen](screenshots/LoginPage.jpg)
 ![Firebase](screenshots/firebase.png)
-![Required](screenshots/required.png)
-![Successfully](screenshots/successfully.png)
-![Incorrect](screenshots/incorrect.png)
+![Required](screenshots/required.jpg)
+![Successfully](screenshots/successfully.jpg)
+![Incorrect](screenshots/incorrect.jpg)
 
 
 
