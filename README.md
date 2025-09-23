@@ -12,21 +12,23 @@ This app allows users to browse menus, place orders, and manage their accounts.
 
 
 ## Screenshots
-### Home Page
-<img src="screenshots/HomePage.jpg" width="300" alt="Home Page">
-### Signup Screen
-<img src="screenshots/SingupPage.jpg" width="300" alt="Signup Screen">
-### Login Screen
-<img src="screenshots/LoginPage.jpg" width="300" alt="Login Screen">
-### Firebase
-<img src="screenshots/firebase.png" width="300" alt="Firebase">
-### Required
-<img src="screenshots/required.jpg" width="300" alt="Required">
-### Successfully
-<img src="screenshots/successfully.jpg" width="300" alt="Successfully">
-### Incorrect
-<img src="screenshots/incorrect.jpg" width="300" alt="Incorrect">
-
+<table>
+  <tr>
+    <td><img src="screenshots/HomePage.jpg" width="300" alt="Home Page"></td>
+    <td><img src="screenshots/SignupPage.jpg" width="300" alt="Signup Screen"></td>
+    <td><img src="screenshots/LoginPage.jpg" width="300" alt="Login Screen"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/firebase.png" width="300" alt="Firebase"></td>
+    <td><img src="screenshots/required.jpg" width="300" alt="Required"></td>
+    <td><img src="screenshots/successfully.jpg" width="300" alt="Successfully"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/incorrect.jpg" width="300" alt="Incorrect"></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
