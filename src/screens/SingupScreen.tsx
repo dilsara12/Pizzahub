@@ -15,7 +15,6 @@ import MaterialIcons from '@react-native-vector-icons/material-icons';
 import { addDoc, collection } from 'firebase/firestore';
 import { db } from '../../firebase/FirebaseInit';
 import { useNavigation } from '@react-navigation/native';
-import LoginScreen from './LoginScreen';
 
 function SingupButton(p: any) {
   return (
@@ -81,7 +80,7 @@ function SingupButton(p: any) {
 
 function BottomSection() {
   return (
-    <TouchableOpacity onPress={LoginScreen}>
+    <TouchableOpacity>
       <View style={{ marginTop: 70 }}>
         <View
           style={{
